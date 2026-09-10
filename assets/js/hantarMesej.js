@@ -1,7 +1,7 @@
 
         // ⚠️ GANTIKAN URL DI BAWAH DENGAN URL WEB APP GOOGLE APPS SCRIPT ANDA SEBELUM INI
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzoeFJxJxIMrb1M_yLHHVC1VweFXlchz80VpR97PUhvHVEIK0Wz9krNPl1tc49iyU0/exec';
-        const form = document.forms['WebPortal TeamIT@HSM | Hubungi Kami | Hantar Mesej'];
+        const form = document.forms['contactForm'];
         const btnHantar = document.getElementById('btnHantar');
 
         form.addEventListener('submit', e => {
