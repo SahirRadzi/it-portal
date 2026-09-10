@@ -94,11 +94,11 @@
           <div class="form-row">
             <div class="field">
               <label for="fTarikh">Tarikh Penggunaan</label>
-              <input type="date" id="fTarikh" required>
+              <input type="text" id="fTarikh" required placeholder="Pilih Tarikh" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'">
             </div>
             <div class="field">
               <label for="fMasa">Masa Penggunaan</label>
-              <input type="text" id="fMasa" required placeholder="9:00 pagi – 1:00 tengah hari" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'">
+              <input type="text" id="fMasa" required placeholder="9:00 pagi – 1:00 tengah hari">
             </div>
           </div>
 
