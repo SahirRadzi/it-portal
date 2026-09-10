@@ -98,7 +98,7 @@
             </div>
             <div class="field">
               <label for="fMasa">Masa Penggunaan</label>
-              <input type="text" id="fMasa" required placeholder="9:00 pagi – 1:00 tengah hari">
+              <input type="text" id="fMasa" required placeholder="9:00 pagi – 1:00 tengah hari" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'">
             </div>
           </div>
 
