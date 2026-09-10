@@ -231,31 +231,32 @@
             Aplikasi e-mel anda akan dibuka dengan mesej yang telah diisi.
           </div>
 
-          <form id="contactForm">
+        <form id="contactForm">
             <div class="field">
               <label for="cName">Nama Penuh</label>
-              <input type="text" id="cName" required placeholder="Contoh: Aiman Zulkifli">
+              <input type="text" id="cName" name="nama_penuh" required placeholder="Aiman Zulkifli">
             </div>
             <div class="field">
-              <label for="cUnit">Bahagian / Jabatan</label>
-              <input type="text" id="cUnit" required placeholder="Contoh: Bahagian Kewangan">
+              <label for="cUnit">Jabatan / Unit</label>
+              <input type="text" id="cUnit" name="jabatan_unit" required placeholder="Bahagian Kewangan">
             </div>
             <div class="field">
               <label for="cSubjek">Subjek</label>
-              <select id="cSubjek">
-                <option>Pertanyaan Am</option>
-                <option>Masalah Teknikal</option>
-                <option>Cadangan / Maklum Balas</option>
-                <option>Lain-lain</option>
+              <select id="cSubjek" name="subjek">
+                <option value="" disabled selected>Sila Pilih Subjek Kategori</option>
+                <option value="Pertanyaan Am">Pertanyaan Am</option>
+                <option value="Masalah Teknikal">Masalah Teknikal</option>
+                <option value="Cadangan / Maklum Balas">Cadangan / Maklum Balas</option>
+                <option value="Lain-lain">Lain-lain</option>
               </select>
             </div>
             <div class="field">
               <label for="cMesej">Mesej</label>
-              <textarea id="cMesej" required placeholder="Nyatakan mesej anda di sini..."></textarea>
+              <textarea id="cMesej" name="mesej" required placeholder="Nyatakan mesej anda di sini..."></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Hantar Mesej</button>
+            <button type="submit" id="btnHantar" class="btn btn-primary" style="width:100%; justify-content:center;">Hantar Mesej</button>
             <p class="form-note">Mesej akan dihantar ke Sistem dalaman Unit Pengurusan Maklumat.</p>
-          </form>
+        </form>
         </div>
       </div>
     </div>
@@ -308,8 +309,11 @@
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
-<script>
+<!-- <script src="assets/js/main.js"></script> -->
+
+<script src="/assets/js/hantarMesej.js"></script>
+
+<!-- <script>
   document.getElementById('contactForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -326,6 +330,6 @@
     document.getElementById('successBanner').classList.add('show');
     window.location.href = mailto;
   });
-</script>
+</script> -->
 </body>
 </html>
