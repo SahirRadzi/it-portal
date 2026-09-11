@@ -464,6 +464,10 @@ a.card:hover { border-color: var(--teal-500); transform: translateY(-2px); }
   .notice-date { flex-direction: row; gap: 8px; align-items: baseline; }
 }
 
+.soon{
+  background-color: var(--black);
+}
+
 /* ============================================
    FOOTER
    ============================================ */
