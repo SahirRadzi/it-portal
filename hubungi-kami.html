@@ -6,8 +6,8 @@
 <title>Portal IT — Hubungi Kami</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
-  /* .contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
-  @media (max-width: 900px) { .contact-layout { grid-template-columns: 1fr; } } */
+  
+  @media (max-width: 900px) { .contact-layout { grid-template-columns: 1fr; } }
 
   .directory-table { width: 100%; border-collapse: collapse; background: var(--paper-alt); border: 1px solid var(--line); border-radius: var(--radius-m); overflow: hidden; }
   .directory-table th, .directory-table td { text-align: left; padding: 14px 16px; font-size: 0.9rem; border-bottom: 1px solid var(--line); }
@@ -40,8 +40,7 @@
         <rect width="40" height="40" rx="8" fill="#14B8A6"/>
         <path d="M12 27V13M20 27V17M28 27V10" stroke="#0B1424" stroke-width="3" stroke-linecap="round"/>
       </svg> -->
-        <!-- SELEPAS (di index.html, tentang-kami.html, galeri.html, hubungi-kami.html) -->
-      <img src="assets/img/logo.png" alt="Logo WebPortal TeamIT" class="brand-mark">
+        <img src="assets/img/logo.png" alt="Logo WebPortal TeamIT" class="brand-mark">
       <span class="brand-text"><strong>WebPortal TeamIT@HSM</strong><span>Unit Pengurusan Maklumat</span></span>
     </a>
 
@@ -52,14 +51,14 @@
     <ul class="nav-links">
       <li><a href="index.html" class="nav-link">Halaman Utama</a></li>
       <li><a href="tentang-kami.html" class="nav-link">Tentang Kami</a></li>
-      <!-- <li><a href="galeri.html" class="nav-link">Galeri</a></li> -->
+      <!-- <li><a href="galeri.html" class="nav-link">Gallery</a></li> -->
       <li class="has-dropdown">
-        <!-- <a href="borang/index.html" class="nav-link">
+        <a href="borang/index.html" class="nav-link">
           Borang Kami
           <svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a> -->
+        </a>
         <div class="dropdown">
-          <a href="#"><strong>Borang Kami</strong><small>Fungsi ini akan datang</small></a>
+         <a href="#"><strong>Borang Kami</strong><small>Fungsi ini akan datang</small></a>
           <!-- <a href="borang/permohonan-akaun.html"><strong>Permohonan Akaun & Akses</strong><small>Akaun e-mel, sistem dalaman & VPN</small></a> -->
           <!-- <a href="borang/aduan-sistem.html"><strong>Aduan Sistem / Kerosakan</strong><small>Laporkan masalah rangkaian, komputer & sistem</small></a> -->
           <!-- <a href="borang/tempahan-peralatan.html"><strong>Tempahan Peralatan IT</strong><small>Projektor, laptop, sistem PA & lain-lain</small></a> -->
@@ -89,7 +88,7 @@
       <div class="card">
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5c0-.6.4-1 1-1h2.2c.5 0 .9.3 1 .8l.8 3.2c.1.4 0 .8-.3 1.1L7 10.8c1.2 2.5 3.2 4.5 5.7 5.7l1.7-1.7c.3-.3.7-.4 1.1-.3l3.2.8c.5.1.8.5.8 1V19c0 .6-.4 1-1 1h-1C9.8 20 4 14.2 4 6.9V5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
         <h3>Talian Bantuan</h3>
-        <p>05-689 6600<br>ext. 6644</p>
+        <p>05-689 6600<br>Samb. 6644</p>
       </div>
       <div class="card">
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.6"/><path d="M4 6l8 7 8-7" stroke="currentColor" stroke-width="1.6"/></svg></div>
@@ -99,7 +98,7 @@
       <div class="card">
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg></div>
         <h3>Lokasi</h3>
-        <p>Bagunan Oncall, Hospital Seri Manjung, Perak.</p>
+        <p>Bangunan Oncall,<br>Hospital Seri Manjung</p>
       </div>
       <div class="card">
         <div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
@@ -114,110 +113,17 @@
         <p>Hubungi terus unit yang berkaitan dengan keperluan anda.</p>
         <table class="directory-table">
           <thead>
-            <tr><th>#</th><th>Pegawai Dihubungi</th><th>Sambungan</th></tr>
+            <tr><th style="width: 5px;">#</th><th>Pegawai Dihubungi</th><th>Sambungan</th></tr>
           </thead>
           <tbody>
-            <!-- <tr><td>Pentadbiran & Pengurusan</td><td>Ahmad Hafiz</td><td>200</td></tr>
-            <tr><td>Rangkaian & Infrastruktur</td><td>Siti Nurhaliza</td><td>212</td></tr>
-            <tr><td>Sokongan Teknikal</td><td>Rajesh Kumar</td><td>210</td></tr>
-            <tr><td>Pembangunan Sistem</td><td>Lee Wei Jian</td><td>225</td></tr> -->
-            <tr>
-                <td>
-                    1.
-                </td>
-                <td>
-                    PN. ROSHALIZA
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    2.
-                </td>
-                <td>
-                    PN. JAIGESWARI
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-              <tr>
-                <td>
-                    3.
-                </td>
-                <td>
-                    PN. NURHANIM
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    4.
-                </td>
-                <td>
-                    PN. NOOR ILYANI
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    5.
-                </td>
-                <td>
-                    EN. MOHD NUR
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    6.
-                </td>
-                <td>
-                    EN. KHAIRUL AZHAR
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    7.
-                </td>
-                <td>
-                    EN. MOHAMAD FADZIL
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    8.
-                </td>
-                <td>
-                    EN. MUHAMAD SAHIR 
-                </td>
-                <td>
-                  ext 6644
-                </td>
-            </tr>
-
-
+            <tr><td>1.</td><td>PN. ROSHALIZA</td><td>ext 6644</td></tr>
+            <tr><td>2.</td><td>PN. JAIGESWARI</td><td>ext 6644</td></tr>
+            <tr><td>3.</td><td>PN. NURHANIM</td><td>ext 6644</td></tr>
+            <tr><td>4.</td><td>PN. NOOR ILYANI</td><td>ext 6644</td></tr>
+            <tr><td>5.</td><td>EN. MOHD NUR</td><td>ext 6644</td></tr>
+            <tr><td>6.</td><td>EN. KHAIRUL AZHAR</td><td>ext 6644</td></tr>
+            <tr><td>7.</td><td>EN. MOHAMAD FADZIL</td><td>ext 6644</td></tr>
+            <tr><td>8.</td><td>EN. MUHAMAD SAHIR SYAHMI</td><td>ext 6644</td></tr>
           </tbody>
         </table>
       </div>
@@ -232,32 +138,31 @@
             Aplikasi e-mel anda akan dibuka dengan mesej yang telah diisi.
           </div>
 
-        <form id="contactForm" name="contactForm">
+          <form id="contactForm">
             <div class="field">
               <label for="cName">Nama Penuh</label>
-              <input type="text" id="cName" name="nama_penuh" required placeholder="Aiman Zulkifli">
+              <input type="text" id="cName" required placeholder="Contoh: Aiman Zulkifli">
             </div>
             <div class="field">
-              <label for="cUnit">Jabatan / Unit</label>
-              <input type="text" id="cUnit" name="jabatan_unit" required placeholder="Bahagian Kewangan">
+              <label for="cUnit">Bahagian / Jabatan</label>
+              <input type="text" id="cUnit" required placeholder="Contoh: Bahagian Kewangan">
             </div>
             <div class="field">
               <label for="cSubjek">Subjek</label>
-              <select id="cSubjek" name="subjek">
-                <option value="" disabled selected>Sila Pilih Subjek Kategori</option>
-                <option value="Pertanyaan Am">Pertanyaan Am</option>
-                <option value="Masalah Teknikal">Masalah Teknikal</option>
-                <option value="Cadangan / Maklum Balas">Cadangan / Maklum Balas</option>
-                <option value="Lain-lain">Lain-lain</option>
+              <select id="cSubjek">
+                <option>Pertanyaan Am</option>
+                <option>Masalah Teknikal</option>
+                <option>Cadangan / Maklum Balas</option>
+                <option>Lain-lain</option>
               </select>
             </div>
             <div class="field">
               <label for="cMesej">Mesej</label>
-              <textarea id="cMesej" name="mesej" required placeholder="Nyatakan mesej anda di sini..."></textarea>
+              <textarea id="cMesej" required placeholder="Nyatakan mesej anda di sini..."></textarea>
             </div>
-            <button type="submit" id="btnHantar" class="btn btn-primary" style="width:100%; justify-content:center;">Hantar Mesej</button>
-            <p class="form-note">Mesej akan dihantar ke Sistem dalaman Unit Pengurusan Maklumat.</p>
-        </form>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Hantar Mesej</button>
+            <p class="form-note">Mesej akan dihantar ke it-support@syarikat.com.my melalui aplikasi e-mel lalai peranti anda.</p>
+          </form>
         </div>
       </div> -->
     </div>
@@ -270,8 +175,8 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="brand" style="margin-bottom:14px;">
-         
-         <img src="assets/img/logo.png" alt="Logo WebPortal TeamIT" class="brand-mark">
+          <!-- <svg class="brand-mark" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#14B8A6"/><path d="M12 27V13M20 27V17M28 27V10" stroke="#0B1424" stroke-width="3" stroke-linecap="round"/></svg> -->
+            <img src="assets/img/logo.png" alt="Logo WebPortal TeamIT" class="brand-mark">
       <span class="brand-text"><strong>WebPortal TeamIT@HSM</strong><span>Unit Pengurusan Maklumat</span></span>
         </div>
         <p>Portal rasmi maklumat & perkhidmatan, Unit Pengurusan Maklumat.</p>
@@ -297,7 +202,7 @@
       </div>
       <div>
         <h4>Hubungi</h4>
-        <ul>
+       <ul>
           <li>hsm.ict@moh.gov.my</li>
           <li>05-689 6600 ext(6644)</li>
           <li>Bagunan Oncall, Hospital Seri Manjung, Perak.</li>
@@ -311,11 +216,8 @@
   </div>
 </footer>
 
-<!-- <script src="assets/js/main.js"></script> -->
-
-<!-- <script src="/assets/js/hantarMesej.js"></script> -->
-
-<!-- <script>
+<script src="assets/js/main.js"></script>
+<script>
   document.getElementById('contactForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -332,6 +234,6 @@
     document.getElementById('successBanner').classList.add('show');
     window.location.href = mailto;
   });
-</script> -->
+</script>
 </body>
 </html>
