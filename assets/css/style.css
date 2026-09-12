@@ -286,7 +286,7 @@ p { margin: 0 0 1em 0; color: var(--ink-700); }
 .hero {
   background: var(--navy-950);
   color: var(--paper-alt);
-  padding: 64px 0 80px;
+  padding: 30px 0 80px;
   position: relative;
   overflow: hidden;
 }
