@@ -459,6 +459,10 @@ a.card:hover { border-color: var(--teal-500); transform: translateY(-2px); }
 .tag--warn { background: rgba(245,158,11,0.14); color: #B45309; }
 .tag--ok { background: rgba(20,184,166,0.12); color: var(--teal-600); }
 
+.tag--kursus{
+  background-color: rgb(14, 148, 136); color: var(--white);
+}
+
 @media (max-width: 620px) {
   .notice-item { grid-template-columns: 1fr; gap: 8px; }
   .notice-date { flex-direction: row; gap: 8px; align-items: baseline; }
